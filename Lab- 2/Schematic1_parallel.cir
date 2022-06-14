@@ -1,0 +1,22 @@
+* F:\8th Semester\CSE250\Lab\Lab- 2\Schematic1_parallel.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Fri Nov 20 00:02:41 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1_parallel.net"
+.INC "Schematic1_parallel.als"
+
+
+.probe
+
+
+.END

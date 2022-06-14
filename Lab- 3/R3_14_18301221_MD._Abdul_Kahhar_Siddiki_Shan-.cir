@@ -1,0 +1,22 @@
+* E:\SEMESTER\Fall- 20\CSE250 Circuits and Electronics\Lab\Lab- 3\R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu Apr 08 21:43:26 2021
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.net"
+.INC "R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.als"
+
+
+.probe
+
+
+.END

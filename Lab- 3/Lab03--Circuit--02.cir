@@ -1,0 +1,22 @@
+* F:\8th Semester\CSE250\Lab\Lab- 3\Lab03--Circuit--02.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Dec 14 21:16:52 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Lab03--Circuit--02.net"
+.INC "Lab03--Circuit--02.als"
+
+
+.probe
+
+
+.END

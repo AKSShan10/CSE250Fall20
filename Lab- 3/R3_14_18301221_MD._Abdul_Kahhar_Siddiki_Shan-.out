@@ -1,0 +1,117 @@
+
+**** 04/08/21 21:43:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * E:\SEMESTER\Fall- 20\CSE250 Circuits and Electronics\Lab\Lab- 3\R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Thu Apr 08 21:43:26 2021
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.net"
+
+**** INCLUDING R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 15V
+R_R3         $N_0002 0  1.5k  
+R_R1         $N_0001 $N_0003  1k  
+R_R2         $N_0003 $N_0002  9.5k  
+V_V2         $N_0004 0 6V
+R_R6         0 $N_0004  8.5k  
+R_R7         0 $N_0004  5.5k  
+R_R5         0 $N_0004  4.0k  
+
+**** RESUMING R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.cir ****
+.INC "R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.als"
+
+
+
+**** INCLUDING R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+R_R3            R3(1=$N_0002 2=0 )
+R_R1            R1(1=$N_0001 2=$N_0003 )
+R_R2            R2(1=$N_0003 2=$N_0002 )
+V_V2            V2(+=$N_0004 -=0 )
+R_R6            R6(1=0 2=$N_0004 )
+R_R7            R7(1=0 2=$N_0004 )
+R_R5            R5(1=0 2=$N_0004 )
+.ENDALIASES
+
+
+**** RESUMING R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.cir ****
+.probe
+
+
+.END
+
+**** 04/08/21 21:43:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * E:\SEMESTER\Fall- 20\CSE250 Circuits and Electronics\Lab\Lab- 3\R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)   15.0000                   ($N_0002)    1.8750                       
+
+($N_0003)   13.7500                   ($N_0004)    6.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.250E-03
+    V_V2        -3.297E-03
+
+    TOTAL POWER DISSIPATION   3.85E-02  WATTS
+
+
+**** 04/08/21 21:43:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * E:\SEMESTER\Fall- 20\CSE250 Circuits and Electronics\Lab\Lab- 3\R3_14_18301221_MD._Abdul_Kahhar_Siddiki_Shan-.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

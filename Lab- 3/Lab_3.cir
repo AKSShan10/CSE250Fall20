@@ -1,0 +1,22 @@
+* E:\SEMESTER\Fall- 20\CSE250 Circuits and Electronics\Lab\Lab- 3\Lab_3.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu Apr 08 21:44:30 2021
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Lab_3.net"
+.INC "Lab_3.als"
+
+
+.probe
+
+
+.END

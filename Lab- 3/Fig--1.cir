@@ -1,0 +1,22 @@
+* F:\8th Semester\CSE250\Lab\Lab- 3\Fig--1.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Dec 15 23:58:44 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Fig--1.net"
+.INC "Fig--1.als"
+
+
+.probe
+
+
+.END
